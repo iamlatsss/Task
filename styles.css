@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Karla', sans-serif;
+}
+body{
+    background-color: #e6eff6;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 9px;
+    transform: translate(-50%, -50%);
+    height: 550px;
+    width: 700px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.header{
+    position: relative;
+    display: inline-block;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: #fff;
+    height: 50%;
+    width: 100%;
+}
+
+.header-content{
+    position: relative;
+    left: 3.6em;
+}
+
+.header h1{
+    font-size: 2em;
+    color: #63bfbb;
+    line-height: 2.5em;
+    letter-spacing: 0.5px;
+}
+
+.green{
+    color: #c8db6f;
+    font-size: 1.2em;
+    line-height: 1em;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.grey{
+    color: #acb0b7;
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+.bottom{
+    display: inline-block;
+}
+
+.bottom h2{
+    font-size: 1.3em;
+    font-weight: 550;
+    color: #fff;
+}
+
+.bottom h3{
+    font-size: 1.2em;
+    letter-spacing: -0.2px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.price{
+    font-size: 3.5em;
+    font-weight: 100;
+    color: #fff;
+}
+
+.light{
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 22px;
+    color: #fff;
+    align-content: center;
+}
+
+
+.box1{
+    position: absolute;
+    background-color: #2bb3b1;
+    top: 50%;
+    left: 0%;
+    width: 50%;
+    height: 50%;
+    border-bottom-left-radius: 9px;
+}
+
+.box2{
+    position: absolute;
+    background-color: #4abebd;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    border-bottom-right-radius: 9px;
+}
+
+.inbox{
+    position: absolute;
+    top: 7%;
+    bottom: 7%;
+    left: 12%;
+    right: 12%;
+}
+
+button{
+    background: #bfdf32;
+    position: absolute;
+    border: 0;
+    outline: 0;
+    border-radius: 9px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin: auto;
+    padding: 15px 101px;
+    box-shadow: 0px 8px 13px rgba(0, 0, 0, 0.2);
+}
